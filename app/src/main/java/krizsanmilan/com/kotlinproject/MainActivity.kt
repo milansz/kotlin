@@ -25,9 +25,14 @@ class MainActivity : AppCompatActivity() {
         var car1 = CarModel("Ford", "Fiesta", EnginePower.LOW.ordinal, "automatic", "green")
         var car2 = CarModel("Ford", "Focus", EnginePower.MEDIUM.ordinal, "manual", "white")
         var car3 = CarModel("Ford", "Mustang", EnginePower.HIGH.ordinal, "manual", "red")
+
+        var car4 = CarModel("Honda", "Civic", EnginePower.MEDIUM.ordinal, "manual", "red")
+        var car5 = CarModel("Honda", "Civic Type-R", EnginePower.HIGH.ordinal, "manual", "grey")
         carList = ArrayList<CarModel>()
         carList!!.add(car1)
         carList!!.add(car2)
         carList!!.add(car3)
+        carList!!.add(car4)
+        carList!!.add(car5)
     }
 }
