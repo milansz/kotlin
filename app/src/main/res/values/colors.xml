@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="item_background">#b3b7bd</color>
+    <color name="in_progress">#001030</color>
+    <color name="error">#990011</color>
+    <color name="signed">#009900</color>
+</resources>

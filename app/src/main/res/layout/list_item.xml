@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/item_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvCarBrand"
+        style="@style/textview_style_default"
+        android:text="sender"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvCarName"
+        style="@style/textview_style_default"
+        android:text="reamining"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvCarBrand"
+        app:layout_constraintEnd_toStartOf="@id/tvCarHorsePower"/>
+
+    <TextView
+        android:id="@+id/tvCarHorsePower"
+        style="@style/textview_style_default"
+        android:text="Status"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvCarAcceleration"
+        style="@style/textview_style_default"
+        android:text="title"
+        app:layout_constraintTop_toBottomOf="@id/tvCarBrand"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvCarColor"
+        style="@style/textview_style_default"
+        android:text="descriptions"
+        app:layout_constraintTop_toBottomOf="@id/tvCarAcceleration"
+        app:layout_constraintStart_toStartOf="parent"/>
+</android.support.constraint.ConstraintLayout>

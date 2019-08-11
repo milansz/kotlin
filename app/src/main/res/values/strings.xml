@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KotlinProject</string>
+    <string name="low">Gyenge</string>
+    <string name="medium">Elég jó</string>
+    <string name="high">Bivaly erős</string>
+</resources>
